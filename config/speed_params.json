@@ -1,0 +1,34 @@
+{
+  "base": {
+    "straight_base_speed": 0.28,
+    "straight_speed_comp": 0.45,
+    "turn_base_speed": 0.22,
+    "turn_comp_speed": 0.35,
+    "max_wheel_speed": 1.0,
+    "min_wheel_speed": 0.0
+  },
+
+  "distance_control": {
+    "far_accel_gain": 0.015,
+    "near_slow_gain": 0.020,
+    "hold_distance_cm": 20.0
+  },
+
+  "slope_logic": {
+    "uphill_boost": 0.06,
+    "downhill_brake": -0.05,
+    "memory_decay": 0.92
+  },
+
+  "turn_logic": {
+    "center_dead_zone_px": 24,
+    "orientation_low_priority_gain": 0.35
+  },
+
+  "obstacle_policy": {
+    "avoid_turn_right_time_s": 0.45,
+    "avoid_forward_time_s": 0.40,
+    "avoid_turn_left_time_s": 0.45,
+    "resume_delay_s": 0.30
+  }
+}
