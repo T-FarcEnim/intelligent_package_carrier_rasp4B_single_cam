@@ -1,0 +1,25 @@
+{
+  "base_forward": 0.6,
+  "forward_comp": 0.8,
+  "base_turn": 0.4,
+  "turn_comp": 0.45,
+  "dead_zone_px": 25.0,
+  
+  "pid": {
+    "kp_dist": 0.015,
+    "kp_pitch": 0.01,
+    "kp_yaw": 0.004
+  },
+  
+  "max_speed": 1.0,
+  "min_speed": -1.0,
+  "track_far_cm": 120.0,
+  "stop_near_cm": 22.0,
+  
+  "obstacle_safe_distance": 20.0,
+  "obstacle_stop_distance": 10.0,
+  
+  "search_base_speed": 0.3,
+  "search_turn_gain": 0.3,
+  "max_rotation_deviation": 60.0
+}

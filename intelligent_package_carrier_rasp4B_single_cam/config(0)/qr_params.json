@@ -1,0 +1,16 @@
+{
+  "qr_physical_size_cm": 2.5,
+  "reference_samples": [
+    {
+      "content": "30092",
+      "description": "默认测试二维码样本",
+      "valid": true
+    }
+  ],
+  "tracking_policy": {
+    "max_tracking_distance_cm": 250,
+    "min_tracking_distance_cm": 12,
+    "dead_zone_ratio_x": 0.08,
+    "dead_zone_ratio_y": 0.06
+  }
+}
